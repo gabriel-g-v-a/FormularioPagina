@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario 2024(1)</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  
+</head>
+<body>
+  <div class="container">
+    <form action="" class="form" id="form" autocomplete="off">
+      <p class="form-titulo">Formulario de Registro <br>Uleam</p>
+      <img class="Logo" src="imagen/logo_ULEAM_2017_vertical_cara.png" alt="" height="100" width="100" >
+      <div class="form-input myname">
+        <input type="text" id="myname">
+        <label for="myname">Nombre</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input surname">
+        <input type="text" id="surname">
+        <label for="surname">Apellidos</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input email">
+        <input type="email" id="email">
+        <label for="email">Correo electrónico</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input mobile">
+        <input type="text" id="mobile">
+        <label for="mobile">Celular</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input direccion">
+        <input type="texto" id="direccion">
+        <label for="direccion">Direccion</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input fecha">
+        <input type="date" id="fecha">
+        <label for="fecha">Fecha Nacimiento</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input inquietud">
+      <h1 class="Aviso"><b>Aviso:</b><label for="Aviso">Con su opinion ayuda de mucho. ¡Gracias!</label> <br></h1> 
+        <textarea cols=35 rows=10 name=“OPINA”></textarea>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-terminos terminos">
+        <input type="checkbox" id="terminos">
+        <label for="terminos">He leído, acepto los </label>
+        <a href="#">Términos y Condiciones</a>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-boton" >
+        <input type="submit" value="Enviar">
+      </div>
+      <p class="mensajeCorrecto"></p>
+    </form>
+  </div>
+  <script src="js/form.js"></script>
+</body>
+
+</html>
